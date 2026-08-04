@@ -7,7 +7,7 @@ test('With browser context', async ({browser}) => {
     const page = await context.newPage();
     await page.goto("https://playwright.dev");
     console.log(await page.title());
-    await expect(page).toHaveTitle("Fast and reliable end-to-end testing for modern web apps | Playwright");
+    await expect(page).toHaveTitle("Fast andeliable end-to-end testing  modern web apps | Playwright");
 });
 
 test('With page context', async ({page}) => {
