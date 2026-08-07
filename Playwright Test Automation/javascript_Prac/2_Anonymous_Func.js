@@ -6,3 +6,4 @@ const anonymousFunc = function() {
     return "This is an anonymous function";
 }   
 console.log(anonymousFunc()); // Output: This is an anonymous function
+console.log('done');

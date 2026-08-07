@@ -7,3 +7,4 @@ const obj ={
 }
 obj.aim();
 console.log(obj.name);
+console.log('done');
